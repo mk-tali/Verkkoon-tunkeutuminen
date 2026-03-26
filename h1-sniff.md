@@ -23,15 +23,15 @@ Täältä pystyn katkaisemaan yhteyden nettiin.
 
 ## c) Wireshark  
 Wireshark on valmiiksi asennettuna Kalissa.  
-<img width="806" height="608" alt="image" src="https://github.com/user-attachments/assets/8ab06028-d843-4c6e-b932-b9558ff79c07" />  
+<img width="806" height="608" alt="image" src="https://github.com/user-attachments/assets/8ab06028-d843-4c6e-b932-b9558ff79c07" /> 
 
 ## d) Oikeesti TCP/IP  
-<img width="971" height="212" alt="image" src="https://github.com/user-attachments/assets/a5163661-e9fd-4b27-a201-2aefa0440aa5" />  
 Sieppasin liikennettä ja kuvassa näkyy seuraavasti.  
-Linux cooked capture v1 = Network access layer,  
-Internet Protocol version 4 = Internet layer,  
-User Datagram Protocol = Transport layer,  
-Domain Name System = Application layer.  
+`Linux cooked capture v1 = Network access layer,`  
+`Internet Protocol version 4 = Internet layer,`  
+`User Datagram Protocol = Transport layer`  
+`Domain Name System = Application layer.`  
+<img width="973" height="194" alt="image" src="https://github.com/user-attachments/assets/bfd06919-05bd-4547-a6e0-6a63529a34f3" />  
 
 
 ## Lähteet  
