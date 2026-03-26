@@ -27,7 +27,11 @@ Wireshark on valmiiksi asennettuna Kalissa.
 
 ## d) Oikeesti TCP/IP  
 <img width="971" height="212" alt="image" src="https://github.com/user-attachments/assets/a5163661-e9fd-4b27-a201-2aefa0440aa5" />  
-Sieppasin liikennettä ja kuvassa näkyy seuraavasti. `Linux cooked capture v1 = Network access layer`, `Internet Protocol version 4 = Internet layer`, `User Datagram Protocol = Transport layer`, `Domain Name System = Application layer.`
+Sieppasin liikennettä ja kuvassa näkyy seuraavasti.  
+Linux cooked capture v1 = Network access layer,  
+Internet Protocol version 4 = Internet layer,  
+User Datagram Protocol = Transport layer,  
+Domain Name System = Application layer.  
 
 
 ## Lähteet  
