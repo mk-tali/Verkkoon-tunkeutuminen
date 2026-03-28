@@ -46,16 +46,12 @@ Uskon, että se johtuu tästä.
 Tutkin annettua tiedostoa ja heti alussa huomasin, että oli menty googlen kautta terokarvinen.com. Myös terokarvinen.goatcounter.com.  
 
 ## i) Analyysi.  
-Tätä analyysia varten menin firefoxissa githubiin.  
-Ensin kone teki ARP kyselyn.  
-<img width="1024" height="55" alt="image" src="https://github.com/user-attachments/assets/3d1c38cc-6f78-485b-bde9-f6adbf2b423b" />  
-DNS mozillaan.
-<img width="1587" height="42" alt="image" src="https://github.com/user-attachments/assets/fb3b6349-178a-4ccb-993e-c3f9ffa9eadf" />  
-DNS githubiin.  
-<img width="1535" height="181" alt="image" src="https://github.com/user-attachments/assets/c997e2cf-415e-4b21-b7d9-3d74e48cde55" />  
-DNS githubiin käyttäjälleni a
-
-
+Tätä analyysia varten avasin vain Firefoxin ja tutkin sitä liikennettä.  
+Tutkin näitä paketteja.  
+<img width="1591" height="92" alt="image" src="https://github.com/user-attachments/assets/5f97900f-5e4c-4e6f-a946-62470da8dc3b" />  
+1 paketti on koneeni lähettämä IPv4 DNS kysely Mozillalle. 3 paketti on Mozillan vastaus DNS kyselyyn. 1 paketin sorce ip on 10.0.2.15 ja destination ip on 192.168.1.1. 3 paketissa nämä ovat toisinpäin, kun Mozilla vastaa minulle. Protokolla näissä on DNS.  
+<img width="587" height="74" alt="image" src="https://github.com/user-attachments/assets/012ca4d2-9eb2-4a56-a9cb-91e32e306fcc" />  
+Kuvassa näkyy TCP/IP mallin neljä kerrosta, jotka ovat samat kuin tehtävässä d).  
 
 ## Lähteet  
 Karvinen 2025. Wireshark - Getting Started. https://terokarvinen.com/wireshark-getting-started/  
