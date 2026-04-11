@@ -51,7 +51,7 @@ Ajoin uuden komennon `sudo nmap --script-args 80 localhost` ja nyt nmapista ei j
 En ollut ihan varma, mitä tässä pitää tehdä. Edellisessä tehtävässäkään minulla ei näkynyt nmappia.  
 
 ## j) FCC ID  
-
+Etsin puhelimeni (Oneplus 15) FCC ID:n 2ABZ2-OP24865. En keksi mitä liikenteen purkamista tai manipuloimista hyödyttävää tietoa sillä voisi löytää.
 
 ## Lähteet  
 Bianco. 2013. Enterprise Detection & Response. https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html  
