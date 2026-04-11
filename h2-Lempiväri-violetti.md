@@ -40,6 +40,17 @@ Tässä näkyy, että source ja destination osoitteet ovat samat, protokolla on 
 Ajoin komennot `sudo ngrep -d lo -i nmap` ja `sudo nmap -A -p 80 localhost`. <img width="1099" height="1188" alt="Näyttökuva 2026-04-10 161632" src="https://github.com/user-attachments/assets/9693b929-1e12-4324-9365-8701157623af" />  
 <img width="1100" height="176" alt="Näyttökuva 2026-04-10 161710" src="https://github.com/user-attachments/assets/e963b7a3-e126-48ca-ac4c-4aac130d3427" />  
 
+## g) Agentti  
+Vaihdoin komennossa `sudo nmap -A -p 80 localhost` -A -p tilalle --script-args.    
+
+## h) Pienemmät jäljet  
+Ajoin uuden komennon `sudo nmap --script-args 80 localhost` ja nyt nmapista ei jäänyt jälkiä apache lokiin.  
+<img width="1260" height="372" alt="image" src="https://github.com/user-attachments/assets/376c96f7-c747-4931-87c0-05f811122d05" />  
+
+## i) Hieman vaikeampi: LoWeR ChEcK  
+En ollut ihan varma, mitä tässä pitää tehdä. Edellisessä tehtävässäkään minulla ei näkynyt nmappia.  
+
+## j) FCC ID  
 
 
 ## Lähteet  
