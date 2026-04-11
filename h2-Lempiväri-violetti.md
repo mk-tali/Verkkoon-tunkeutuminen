@@ -26,7 +26,19 @@ Nämä skriptit olivat automaattisesti päällä.
 <img width="449" height="35" alt="Näyttökuva 2026-04-10 152920" src="https://github.com/user-attachments/assets/172cdbce-d1ad-4216-9814-403581c8f3a6" />  
 
 ## d) Jäljet lokissa  
+Ajoin komennon `sudo grep -i nmap /var/log/apache2/access.log`  
+<img width="1443" height="450" alt="Näyttökuva 2026-04-10 153259" src="https://github.com/user-attachments/assets/95ecf606-cc33-42cb-b09e-0ae636cd664d" />
+Nmap osumia löytyi helposti. Nmap User-Agent kohdassa näkyy Nmap Scripting Engine, eli pyynnöt tulivat Nmapin NSE-skripteiltä.  
+Liian isosta lokista voi tunnistaa porttiskannauksen muun muassa tunnetuilla User-Agent sanoilla, suurella määrällä pyyntöjä tai 404 virheitä samalta ip-osoitteelta, sekä epätavallisilla http-metodeilla.  
 
+## e) Wire sharking  
+Aloitin kaappauksen Wiresharkissa loopback / lo liittymällä, koska skannaan localhost osoitetta. Ajoin komennon `sudo nmap -A -p 80 localhost`, pysäytin kaappakusen ja tallensin tiedoston .pcap muodossa. Etsin kohdat joissa on nmap hakusanalla 'frame contains "nmap"'.  
+<img width="1209" height="575" alt="Näyttökuva 2026-04-10 155833" src="https://github.com/user-attachments/assets/e25d24c6-d994-4316-9981-a6e5745af48c" />  
+Tässä näkyy, että source ja destination osoitteet ovat samat, protokolla on HTTP, pituus ja infossa erilaisia pyyntöjä.  
+
+## f) Net grep
+Ajoin komennot `sudo ngrep -d lo -i nmap` ja `sudo nmap -A -p 80 localhost`. <img width="1099" height="1188" alt="Näyttökuva 2026-04-10 161632" src="https://github.com/user-attachments/assets/9693b929-1e12-4324-9365-8701157623af" />  
+<img width="1100" height="176" alt="Näyttökuva 2026-04-10 161710" src="https://github.com/user-attachments/assets/e963b7a3-e126-48ca-ac4c-4aac130d3427" />  
 
 
 
