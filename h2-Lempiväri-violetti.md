@@ -19,6 +19,14 @@ Näistä ensimmäinen on omaa sivulataustani vastaava lokirivi. Järjestyksessä
 ## b) Nmapped  
 Ajoin komennon `sudo nmap -A -p 80 localhost` ja rajasin skannauksen vain porttiin 80.  
 <img width="833" height="325" alt="image" src="https://github.com/user-attachments/assets/c0e39336-978c-43c1-bb4d-d201ce56a52d" />  
+Nmap skannasi localhostilla portin 80/tcp, state = open, service = http, version Apache. Käyttöjärjestelmän tunnistus ei ole täysin luotettava, koska nmap tarvitsee vähintään yhden avoimen ja yhden suljetun portin.  
+
+## c) Skriptit  
+Nämä skriptit olivat automaattisesti päällä.  
+<img width="449" height="35" alt="Näyttökuva 2026-04-10 152920" src="https://github.com/user-attachments/assets/172cdbce-d1ad-4216-9814-403581c8f3a6" />  
+
+## d) Jäljet lokissa  
+
 
 
 
