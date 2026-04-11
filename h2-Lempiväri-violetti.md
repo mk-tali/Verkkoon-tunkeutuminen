@@ -6,7 +6,7 @@ Pyramidi näyttää millainen yhteys on indikaattorien, joita käytetään hyök
 (Bianco 2013)  
 
 -Timanttimalli  
-Malli havannoi hyökkäyksen neljä pääosaa. Adversary, Capability, Infrastructure ja Victim.
+Malli havannoi hyökkäyksen neljä pääosaa. Adversary, Capability, Infrastructure ja Victim.  
 (Caltagirone 2013)  
 
 ## a) Apache log  
