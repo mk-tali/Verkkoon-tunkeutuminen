@@ -1,8 +1,14 @@
 # WiFi  
 ## a) Tutustu wifi challenge lab 2.1 harjoitus ympäristöön ja käytä tarvittaessa hyväksesi jo olemassa olevia ohjeita.  
-Tein tehtävät Recon 1-4, mutta 3 tehtävässä en saanut sivuston mukaan oikeaa vastausta, vaikka seurasin ohjeita. Sain vastaukseksi wifi
+Tein tehtävät Recon 1-4 ja OPN 5. Recon 3 tehtävässä en saanut sivuston mukaan oikeaa vastausta, vaikka seurasin ohjeita. Sain vastaukseksi wifi-offices,Jason.
 
 ## b) Kirjoita raportti siitä mitä opit ja mitkä asia yllättivät sinut kun tutustuit harjoitukseen.  
+Harjoituksiin tutustuessa opin yksinkertaisia komentoja ja tapoja millä kuunnella ja murtautua WiFi verkkoihin.  
+Opin hyökkäyksiin liittyvät vaiheet, Tiedustelu, Hyökkäys ja Tunkeutuminen. Ensin aloitetaan wlanien monitorointi komennolla `airmon-ng start "wlan"`. Sen jälkeen kuunnellaan mitä wlan verkkoja löydämme komennolla `airodump-ng "wlan"`.  
+<img width="1026" height="753" alt="image" src="https://github.com/user-attachments/assets/eb611836-2553-464f-8f43-98859e6151c8" />
+
+
 
 ## c) Miten suhtautumisesi WLanin turvallisuuteen muuttui sen jälkeen kun teit harjoitukset?  
+Tajusin, että Wlan ei olekkaan niin turvallinen, kuin olin ajatellut. Tiesin, että varsinkaan julkiset Wlanit eivät ole turvallisia, mutta, että tunkeutuminen verkkoihin on loppujen lopuksi näin yksinkertaista, oli minulle uutta.
 
