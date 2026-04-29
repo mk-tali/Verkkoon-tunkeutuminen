@@ -1,6 +1,6 @@
 # WiFi  
 ## a) Tutustu wifi challenge lab 2.1 harjoitus ympäristöön ja käytä tarvittaessa hyväksesi jo olemassa olevia ohjeita.  
-Tein tehtävät Recon 1-4 ja OPN 5. Recon 3 tehtävässä en saanut sivuston mukaan oikeaa vastausta, vaikka seurasin ohjeita. Sain vastaukseksi wifi-offices,Jason.
+Tein tehtävät Recon 1-4 ja OPN 5.
 
 ## b) Kirjoita raportti siitä mitä opit ja mitkä asia yllättivät sinut kun tutustuit harjoitukseen.  
 Harjoituksiin tutustuessa opin yksinkertaisia komentoja ja tapoja millä kuunnella ja murtautua WiFi verkkoihin.  
