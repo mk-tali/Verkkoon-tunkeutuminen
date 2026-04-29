@@ -10,6 +10,10 @@ Opin hyökkäyksiin liittyvät vaiheet, Tiedustelu, Hyökkäys ja Tunkeutuminen.
 Sen jälkeen kuunnellaan mitä wlan verkkoja löydämme komennolla `airodump-ng "wlan"`.  
 <img width="1026" height="753" alt="image" src="https://github.com/user-attachments/assets/eb611836-2553-464f-8f43-98859e6151c8" />  
 
+Komennolla `aireplay-ng` generoidaan liikennettä verkkoon.  
+<img width="742" height="296" alt="image" src="https://github.com/user-attachments/assets/16a997ff-5967-47e0-9947-12055091bb92" />  
+
+
 ## c) Miten suhtautumisesi WLanin turvallisuuteen muuttui sen jälkeen kun teit harjoitukset?  
 Tajusin, että Wlan ei olekkaan niin turvallinen, kuin olin ajatellut. Tiesin, että varsinkaan julkiset Wlanit eivät ole turvallisia, mutta, että tunkeutuminen verkkoihin on loppujen lopuksi näin yksinkertaista, oli minulle uutta.
-
+ 
