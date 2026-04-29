@@ -13,7 +13,14 @@ Sen jälkeen kuunnellaan mitä wlan verkkoja löydämme komennolla `airodump-ng 
 Komennolla `aireplay-ng` generoidaan liikennettä verkkoon.  
 <img width="742" height="296" alt="image" src="https://github.com/user-attachments/assets/16a997ff-5967-47e0-9947-12055091bb92" />  
 
+Lopuksi hyökätään tallennettuun tiedostoon komennolla `aircrack-ng` 
+Recon 4 tehtävässä hyökättiin rockyou.txt tiedoston avulla, mutta ilman `aircrack-ng` komentoa, vaan käytettiin mdk4 löytämään oikea ESSID.  
+<img width="851" height="192" alt="image" src="https://github.com/user-attachments/assets/d63a4b7e-c2cc-44c1-8a16-c90f4b73d9fa" />  
+
+OPN 5 tehtävässä luotiin free.conf tiedosto, jonka avulla voitiin yhdistää verkkoon käyttämällä komentoa `wpa_supplicant -Dnl80211 -iwlan2 -c free.conf` kun toisessa terminaalissa ajettiin komento `dhclient wlan2 -v` saatiin ip osoite, jossa pääsin kirjautumaan adminina.
+
+Se mikä minut yllätti, kun tein harjoituksia oli se, että kuinka yksinkertaista wlan verkkoihin tunkeutuminen loppujen lopuksi oli.
 
 ## c) Miten suhtautumisesi WLanin turvallisuuteen muuttui sen jälkeen kun teit harjoitukset?  
-Tajusin, että Wlan ei olekkaan niin turvallinen, kuin olin ajatellut. Tiesin, että varsinkaan julkiset Wlanit eivät ole turvallisia, mutta, että tunkeutuminen verkkoihin on loppujen lopuksi näin yksinkertaista, oli minulle uutta.
+Tajusin, että yksityisetkään Wlanit ei olekkaan niin turvallisia, kuin olin ajatellut. 
  
