@@ -56,3 +56,4 @@ Etsin puhelimeni (Oneplus 15) FCC ID:n 2ABZ2-OP24865. En keksi mitä liikenteen 
 ## Lähteet  
 Bianco. 2013. Enterprise Detection & Response. https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html  
 Caltagirone. 2013. The Diamond Model of Intrusion Analysis. https://www.threatintel.academy/wp-content/uploads/2020/07/diamond-model.pdf  
+Karvinen Tero. Verkkoon tunkeutuminen ja tiedustelu. https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/
