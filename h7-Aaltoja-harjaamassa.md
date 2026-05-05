@@ -40,7 +40,7 @@ Suljin ja avasin terminaalin. Sitten ajoin komennon urh ja graafinen käyttölii
 <img width="2557" height="807" alt="image" src="https://github.com/user-attachments/assets/5c950dfa-542f-4e35-8007-7ba1b6402176" />  
 
 ## f) Yleiskuva  
-Näyte on 5.49s pitkä, 
+Näyte on 5.49s pitkä, se on 433,912MHz taajuudella, se on tallennettu 12.4.2025, klo. 11.38.55. Näytteestä näkee selkeästi kolme kohtaa, kun nappia on painettu ja signaali on lähetetty.
 
 ## Lähteet  
 Cornelius. 2022. Decode 433.92 MHz weather station data. https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html  
