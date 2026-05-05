@@ -43,11 +43,10 @@ Suljin ja avasin terminaalin. Sitten ajoin komennon urh ja graafinen käyttölii
 Näyte on 5.49s pitkä, se on 433,912MHz taajuudella, se on nauhoitettu 12.4.2025, klo. 11.38.55. Näytteestä näkee selkeästi kolme kohtaa, kun nappia on painettu ja signaali on lähetetty.  
 
 ## g) Bittistä  
-Aloin tutkimaan signaalien bittejä ASK modulaatiolla.  
-<img width="2253" height="917" alt="image" src="https://github.com/user-attachments/assets/33347f4b-0ccd-418f-8113-df35714dda58" />  
-
-
-
+Aloin tutkimaan signaalia. Signaali vaikuttaa olevan On-Off-Keuing, jolloin oikea modulaatio on ASK.  Vaihdoin Signal view kohdan Demodulated ja Modulation kohdan ASK.  
+<img width="2251" height="918" alt="image" src="https://github.com/user-attachments/assets/f22adcdb-682b-4b7c-8899-588d40ed7105" />  
+Toisessa kuavssa näkyy valittuna 1 bitti. Yksi bitti on 1µs. Paras vertailu, jonka keksin tälle ajalle oli valonnopeus. Koska valonnopeus on 300,000km/s, kulkee valo 1µs ajassa 300 metriä.
+<img width="2246" height="569" alt="image" src="https://github.com/user-attachments/assets/2b127ed5-0a43-4220-8d77-a80560029d59" />  
 
 ## Lähteet  
 Cornelius. 2022. Decode 433.92 MHz weather station data. https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html  
