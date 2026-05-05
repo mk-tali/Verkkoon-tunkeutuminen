@@ -56,3 +56,4 @@ Kuvassa n채kyy TCP/IP mallin nelj채 kerrosta, jotka ovat samat kuin teht채v채ss�
 ## L채hteet  
 Karvinen 2025. Wireshark - Getting Started. https://terokarvinen.com/wireshark-getting-started/  
 Karvinen 2025. Network Interface Names on Linux. https://terokarvinen.com/network-interface-linux/  
+Karvinen Tero. Verkkoon tunkeutuminen ja tiedustelu. https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/
